@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       
-      <h1>Vite + React</h1>
+      <h1 className='text-[#1C1B1B] text-[32px] font-bold text-center mt-[50px]'>Course Registration</h1>
       
     </>
   )
