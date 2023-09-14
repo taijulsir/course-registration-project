@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import dollarSign from '../assets/dollar-sign 1.svg'
 import readingSign from '../assets/Frame.png'
-const Course = ({course}) => {
+const Course = ({course,handleSelectBtn}) => {
    const {image,title,details,price,reading_time} =course;
     return (
         <>
@@ -23,7 +23,7 @@ const Course = ({course}) => {
                 </div>
             </div>
             <div className='border border-[#2F80ED] bg-[#2F80ED] text-white text-center rounded-lg font-bold py-2'>
-                <button className=''>Select</button>
+                <button onClick={()=>handleSelectBtn(course)} className=''>Select</button>
             </div>
 
         </div>

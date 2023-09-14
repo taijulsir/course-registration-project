@@ -1,7 +1,14 @@
-const CourseList = () => {
+/* eslint-disable react/prop-types */
+const CourseList = ({courselist}) => {
+
     return (
-        <div>
+        <div className="bg-gray-200 border">
+
             
+            <ol className=" list-decimal list-inside">
+                <li>{courselist.title}</li>
+            </ol>
+           
         </div>
     );
 };
