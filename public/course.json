@@ -1,75 +1,74 @@
 [
-    {
+  {
       "id": 1,
       "image": "https://i.ibb.co/0qZWFqS/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
-      "details": "Learn C programming fundamentals in this comprehensive course.",
+      "details": "In this comprehensive course, you'll delve deep into the world of C programming. Starting with the basics.",
       "price": 10000,
       "reading_time": 6
-    },
-    {
+  },
+  {
       "id": 2,
       "image": "https://i.ibb.co/wKpwDKZ/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
-      "details": "Master algorithms and problem-solving techniques with hands-on examples.",
+      "details": "Become a problem-solving expert with this hands-on course in algorithms. You'll not only learn the theory behind algorithms.",
       "price": 12000,
       "reading_time": 8
-    },
-    {
+  },
+  {
       "id": 3,
       "image": "https://i.ibb.co/4dcZSd0/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "details": "Become proficient in C++ for data structures and algorithms.",
+      "details": "Master C++ for data structures and algorithms (DSA). This course will take you through the intricacies of C++. ",
       "price": 15000,
       "reading_time": 10
-    },
-    {
+  },
+  {
       "id": 4,
       "image": "https://i.ibb.co/rMM7hGt/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "details": "Explore essential data structures for efficient coding.",
+      "details": "Discover the essential data structures that every programmer should know. From arrays and linked lists to trees.",
       "price": 8000,
       "reading_time": 4
-    },
-    {
+  },
+  {
       "id": 5,
       "image": "https://i.ibb.co/ZX1Vxc3/Rectangle-2.png",
       "title": "Introduction to OOP Python",
-      "details": "Dive into object-oriented programming with Python examples.",
+      "details": "Jump into the world of object-oriented programming (OOP) with Python as your guide. Through practical examples.",
       "price": 10000,
       "reading_time": 6
-    },
-    {
+  },
+  {
       "id": 6,
       "image": "https://i.ibb.co/zHZsHFz/Rectangle-2-5.png",
       "title": "Software Engineering",
-      "details": "Gain a deep understanding of software engineering principles and practices.",
+      "details": "Gain a deep understanding of software engineering principles and practices. This comprehensive course covers. ",
       "price": 13000,
       "reading_time": 12
-    },
-    {
+  },
+  {
       "id": 7,
       "image": "https://i.ibb.co/4tS8YPZ/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
-      "details": "Learn cloud computing and AWS services for modern applications.",
+      "details": "Embark on a journey into the world of cloud computing and AWS services. Learn to design, deploy, and manage.",
       "price": 16000,
       "reading_time": 14
-    },
-    {
+  },
+  {
       "id": 8,
       "image": "https://i.ibb.co/74RqNgH/Rectangle-2-1.png",
       "title": "Database (MySQL)",
-      "details": "Master MySQL for effective database management and development.",
+      "details": "Master the art of MySQL for effective database management and development.Explore relational.",
       "price": 11000,
       "reading_time": 8
-    },
-    {
+  },
+  {
       "id": 9,
       "image": "https://i.ibb.co/746h1GD/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
-      "details": "Enhance your problem-solving skills with real-world challenges and solutions.",
+      "details": "Enhance your problem-solving skills with a series of real-world challenges and solutions. From algorithms and data .",
       "price": 6000,
       "reading_time": 4
-    }
-  ]
-  
+  }
+]
