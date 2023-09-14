@@ -1,24 +1,28 @@
 /* eslint-disable react/prop-types */
 import CourseList from "../Paid Course List/CourseList";
+import  './Purchase.css'
 
 const Purchase = ({purchase,totalPrice,readingTime,remainingHour}) => {
     return (
-        <div className="md:w-1/3 mt-8 p-6 h-[380px] lg:w-[400px] lg:ml-20 bg-slate-200">
+        <div className="md:w-1/3 mt-8 p-6 h-[380px] lg:w-[400px] lg:ml-20 bg-[#FFFFFF] border border-red-100 rounded-lg">
 
-            <h3 className="text-[#2F80ED] text-lg font-bold">Credit Hour Remaining {remainingHour}  hr</h3>
+            <h3 className="text-[#2F80ED] text-lg font-bold custom-border pb-4 ">Credit Hour Remaining {remainingHour}  hr</h3>
 
-            <h1 className="text-[18px] text-[#1C1B1B] font-bold">Course Name </h1>
-            <div >
+            
+
+            <h1 className="text-[18px] text-[#1C1B1B] font-bold py-4">Course Name </h1>
+            <div className="custom-border">
             {
                 purchase.map(courselist => <CourseList key={courselist.id} courselist ={courselist}> </CourseList>)
             }
             </div>
 
-            <h1>Total Credit Hour:{readingTime}hr </h1>
+            <h1 className="text-[#1C1B1B] text-opacity-80 text-base
+             font-semibold custom-border py-4">Total Credit Hour:{readingTime}hr </h1>
 
 
             <h1 className="text-[#1C1B1B] text-opacity-80 text-lg
-             font-bold">Total price: {totalPrice} USD</h1>
+             font-bold pt-4">Total price: {totalPrice} USD</h1>
             
         </div>
     );

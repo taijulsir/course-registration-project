@@ -8,13 +8,18 @@ function App() {
   const [totalPrice, setTotalPrice] = useState([]);
   const [readingTime,setReadingTime] = useState(0);
   const [remainingHour,setRemainingHour] = useState([]);
+  
   const handleSelectBtn = course => {
 
     const isExist = purchase.find(item=> item.id === course.id)
+
     let time = course.reading_time;
     time = readingTime + time;
-    let count = course.price;
+
     let remaining = 20 - time;
+    
+    let count = course.price;
+    
     if(isExist){
       return alert('Already Added This')
     }
