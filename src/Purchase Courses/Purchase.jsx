@@ -11,11 +11,13 @@ const Purchase = ({purchase,totalPrice,readingTime,remainingHour}) => {
             
 
             <h1 className="text-[18px] text-[#1C1B1B] font-bold py-4">Course Name </h1>
-            <div className="custom-border">
+            
+            <ol className="list-decimal list-inside">
             {
-                purchase.map(courselist => <CourseList key={courselist.id} courselist ={courselist}> </CourseList>)
+                purchase.map(courselist =>  <li className="text-base text-[#1C1B1B] text-opacity-60" key={courselist.id}>{courselist.title}</li>)
             }
-            </div>
+            </ol>
+            
 
             <h1 className="text-[#1C1B1B] text-opacity-80 text-base
              font-semibold custom-border py-4">Total Credit Hour:{readingTime}hr </h1>

@@ -6,7 +6,7 @@ const CourseList = ({courselist}) => {
 
             
             <ol className=" list-decimal list-inside">
-                <li>{courselist.title}</li>
+                
             </ol>
            
         </div>
