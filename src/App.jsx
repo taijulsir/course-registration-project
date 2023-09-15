@@ -45,7 +45,7 @@ function App() {
       
       <h1 className='text-[#1C1B1B] text-[32px] font-bold text-center mt-[50px]'>Course Registration</h1>
      
-     <div className='md:flex md:mx-10  lg:mx-[100px]  mx-5'>
+     <div className='md:flex md:mx-10  lg:mx-[100px] md:gap-2 mx-5'>
      <Courses handleSelectBtn={handleSelectBtn}></Courses>
      <Purchase purchase={purchase} totalPrice={totalPrice} remainingHour={remainingHour} readingTime ={readingTime} ></Purchase>
      </div>

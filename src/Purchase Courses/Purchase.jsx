@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import CourseList from "../Paid Course List/CourseList";
+
 import  './Purchase.css'
 
 const Purchase = ({purchase,totalPrice,readingTime,remainingHour}) => {
@@ -12,7 +12,7 @@ const Purchase = ({purchase,totalPrice,readingTime,remainingHour}) => {
 
             <h1 className="text-[18px] text-[#1C1B1B] font-bold py-4">Course Name </h1>
             
-            <ol className="list-decimal list-inside">
+            <ol className="list-decimal list-inside bg-white border p-2 rounded-lg pb-4">
             {
                 purchase.map(courselist =>  <li className="text-base text-[#1C1B1B] text-opacity-60" key={courselist.id}>{courselist.title}</li>)
             }
