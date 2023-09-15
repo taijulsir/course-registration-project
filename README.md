@@ -4,7 +4,7 @@
 - Then I declared the purchase state to pass and track selected course data from the courses state.
 - Then To calculate the total credit hours, I used the readingTime state.
 - I also maintained a remainingHour state to display the remaining credit hour time after course purchases.
--Lastly, I used the totalPrice state to keep track of the total course purchase price.
+- Lastly, I used the totalPrice state to keep track of the total course purchase price.
 
 
 
