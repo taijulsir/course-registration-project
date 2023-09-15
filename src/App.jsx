@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import Courses from './Courses/Courses'
 import Purchase from './Purchase Courses/Purchase'
@@ -21,16 +23,17 @@ function App() {
     let count = course.price;
     
     if(isExist){
-      return alert('Already Added This')
+      return toast('Already Added This')
     }
     else{
       purchase.forEach(item => {
         count += item.price;
       })
       if(time>20){
-        return alert('you can not add more')
+        return toast('you can not add more')
       }
       else{
+        toast.success('succesfully added')
         setRemainingHour(remaining)
         setReadingTime(time)
         setTotalPrice(count)
@@ -49,6 +52,7 @@ function App() {
      <Courses handleSelectBtn={handleSelectBtn}></Courses>
      <Purchase purchase={purchase} totalPrice={totalPrice} remainingHour={remainingHour} readingTime ={readingTime} ></Purchase>
      </div>
+     <ToastContainer></ToastContainer>
        
     </>
   )
