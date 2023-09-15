@@ -23,17 +23,29 @@ function App() {
     let count = course.price;
     
     if(isExist){
-      return toast('Already Added This')
+      return toast.error('Already Added This',{
+        position: "top-center",
+        theme: "dark",
+        autoClose: 3000
+      })
     }
     else{
       purchase.forEach(item => {
         count += item.price;
       })
       if(time>20){
-        return toast('you can not add more')
+        return toast.error('Your Remaining Hour is Complete',{
+          position: "top-center",
+          theme: "colored",
+          autoClose: 3000
+        })
       }
       else{
-        toast.success('succesfully added')
+        toast.success('succesfully added',{
+          position: "top-center",
+          theme: "colored",
+          autoClose: 3000
+        })
         setRemainingHour(remaining)
         setReadingTime(time)
         setTotalPrice(count)
