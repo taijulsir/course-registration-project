@@ -62,9 +62,11 @@ function App() {
       <h1 className='text-[#1C1B1B] text-[32px] font-bold text-center mt-[50px]'>Course Registration</h1>
       </div>
      
-     <div className='md:flex container mx-auto flex-col lg:flex-row  md:gap-2 mb-20'>
-     <Courses handleSelectBtn={handleSelectBtn}></Courses>
-     <Purchase purchase={purchase} totalPrice={totalPrice} remainingHour={remainingHour} readingTime ={readingTime} ></Purchase>
+     <div className='container mx-auto'>
+          <div className='flex  flex-col lg:flex-row  mb-20'>
+          <Courses handleSelectBtn={handleSelectBtn}></Courses>
+          <Purchase purchase={purchase} totalPrice={totalPrice} remainingHour={remainingHour} readingTime ={readingTime} ></Purchase>
+          </div>
      </div>
      <ToastContainer></ToastContainer>
        

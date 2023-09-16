@@ -4,7 +4,7 @@ import  './Purchase.css'
 
 const Purchase = ({purchase,totalPrice,readingTime,remainingHour}) => {
     return (
-        <div className="w-[312px] mx-auto mt-8 p-6 h-[380px] lg:w-[400px] lg:ml-20 bg-[#FFFFFF] border border-red-100 rounded-lg">
+        <div className="w-[312px] mx-auto mt-8 p-6 h-[380px]   bg-[#FFFFFF] shadow-xl  rounded-lg">
 
             <h3 className="text-[#2F80ED] text-lg font-bold custom-border pb-4 ">Credit Hour Remaining {remainingHour}  hr</h3>
 
