@@ -5,7 +5,7 @@ const Course = ({course,handleSelectBtn}) => {
    const {image,title,details,price,reading_time} =course;
     return (
         <>
-        <div className="h-[420px] w-[312px] mx-auto  p-4 mt-8 space-y-4 bg-white shadow-xl rounded-lg">
+        <div className="h-[400px] w-[312px] mx-auto  p-4 mt-8 space-y-4 bg-white shadow-xl rounded-lg">
             <div>
                 <img className='lg:w-[300px] w-full' src={image} alt="" />
             </div>
